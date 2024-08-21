@@ -2,6 +2,8 @@
 pragma solidity ^0.8.19;
 
 import {Test, console2} from "forge-std/Test.sol";
+
+// Chianlink Local Docs: https://cll-devrel.gitbook.io/chainlink-local-documentation
 import {IRouterClient, WETH9, LinkToken, BurnMintERC677Helper} from "@chainlink/local/src/ccip/CCIPLocalSimulator.sol";
 import {CCIPLocalSimulator} from "@chainlink/local/src/ccip/CCIPLocalSimulator.sol";
 
@@ -9,8 +11,7 @@ import {CrossChainNameServiceRegister} from "../src/CrossChainNameServiceRegiste
 import {CrossChainNameServiceLookup} from "../src/CrossChainNameServiceLookup.sol";
 import {CrossChainNameServiceReceiver} from "../src/CrossChainNameServiceReceiver.sol";
 
-// FROM URL: https://cll-devrel.gitbook.io/chainlink-local-documentation
-contract Demo is Test {
+contract CrossChainNameService is Test {
     CCIPLocalSimulator public ccipLocalSimulator;
 
     // Source chain - Contract to register a ccns
