@@ -1,33 +1,30 @@
 ## Chainlink CCIP Day 2 Homeworke
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
+https://cll-devrel.gitbook.io/ccip-bootcamp/day-2/day-2-homework
 
 ## Usage
 
-### Clone the project & the dependencies (via git submodules)
+### 1. Clone the project & the dependencies (via git submodules)
 ```shell
 git clone https://github.com/atomicframeworks/ccip-bootcamp-day-2-homework.git --recursive
 ```
 
-### Build
+### 2. CD in to the directory
+
+```shell
+cd ccip-bootcamp-day-2-homework/
+```
+
+### 3. Build
 
 ```shell
 forge build
 ```
 
-### Test
+### 4. Test
 
 ```shell
 forge test
 ```
+
+### 5. Profit
